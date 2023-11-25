@@ -1,0 +1,125 @@
+.typografie-avenirroman {
+  font-family: "AvenirRoman";
+  line-height: 1.5;
+}
+
+.typografie-avenirmedium {
+  font-family: "AvenirMedium";
+  line-height: 1.5;
+}
+
+.typografie-avenirblack {
+  font-family: "AvenirBlack";
+  line-height: 1.5;
+}
+
+#typografie-h3 {
+  font-family: "AvenirBlack";
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.typografie-paragraaf {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "AvenirRoman";
+}
+
+.typografie-desktop-h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "AvenirBlack";
+}
+
+.typografie-desktop-h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "AvenirBlack";
+}
+
+.typografie-desktop-h4 {
+  font-size: 1.3462rem;
+  font-weight: 700;
+  line-height: 1.5;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "AvenirBlack";
+}
+
+.h4-link {
+  font-size: 1.3462rem;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "AvenirBlack";
+  color: black;
+}
+
+.h4-link:hover {
+  font-size: 1.3462rem;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "AvenirBlack";
+  color: red;
+}
+
+.h3-link {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "AvenirBlack";
+  color: black;
+}
+
+.h3-link:hover {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "AvenirBlack";
+  color: red;
+}
+
+.h2-link {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "AvenirBlack";
+  color: black;
+}
+
+.h2-link:hover {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "AvenirBlack";
+  color: red;
+}
+
+.paragraaf-link {
+  font-size: 0.9231rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "AvenirRoman";
+  color: black;
+}
+
+.paragraaf-link:hover {
+  font-size: 0.9231rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "AvenirRoman";
+  color: red;
+}

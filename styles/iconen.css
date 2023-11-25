@@ -1,0 +1,17 @@
+#icons img{
+    max-width: 20em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+.accordion{
+    max-width: 15em;
+    padding-top: 0.5em;
+}
+
+.carousel{
+    max-width: 60em;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+

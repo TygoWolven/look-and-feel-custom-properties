@@ -1,0 +1,10 @@
+#logos table, #logos tr, #logos td {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-collapse: collapse;
+}
+
+#logos td {
+    padding: 20px 0;
+    padding-right: 50px;
+}
