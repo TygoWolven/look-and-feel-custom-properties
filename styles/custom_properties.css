@@ -1,0 +1,35 @@
+  /*** Hey! In dit CSS bestand ga ik (Tygo Wolven) de custom properties *****/
+ /*** over de styleguide zetten. Ik heb dit in een apart bestand gemaakt ***/
+/*** zodat het lekker overzichtelijk blijft. :) ***************************/
+
+:root {
+
+    /* KLEUREN */
+    
+    /* Voor elke kleur geef ik de custom property een naam, gebaseerd op de functie van de kleur. */
+    --body-color: #e4e9f7;
+    --sidebar-color: #fff;
+    --primary-color: #ff0000;
+    --accent-color: #f6f5ff;
+    --text-color: #707070;
+    --select-color: #000;
+
+
+    /* RANDEN */
+
+    /* Er worden redelijk veel dezelfde borders gebruikt in de huisstijl, vandaar dat we daar ook een variable van maken. */
+    --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    --border-hover: 0.1rem solid var(--black);
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+
+    /* TYPOGRAFIE */
+
+    /* In de styleguide geven we code voorbeelden, hiervoor gebruiken we dit lettertype.  */
+    --coding-font: "Source Code Pro", monospace;
+
+    /* Voor de overige tekst in de styleguide, maken we gebruik van avenir-roman. Voor deze font heb ik ook fallback fonts ingesteld. */
+    --primary-font: "Avenir-roman", "Roboto", "Verdana", sans-serif;
+
+}
+

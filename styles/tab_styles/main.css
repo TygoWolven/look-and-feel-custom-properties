@@ -13,35 +13,6 @@
   src: url(../font/Avenir\ -black.ttf);
 }
 
-:root {
-  --body-color: #e4e9f7;
-  --primary-color: #fff;
-  --accent-color: #ff0000;
-  --accent-color-light: #f6f5ff;
-  --text-color: #707070;
-  --selection-color: #000;
-
-  --border: 0.1rem solid rgba(0, 0, 0, 0.1);
-  --border-hover: 0.1rem solid var(--black);
-  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-
-  --code-font: "Source Code Pro", monospace;
-  --primary-font: "Avenir-roman", "Montserrat", "Poppins", sans-serif;
-}
-/* --ws:1em;
-
-  --primary-font:"open sans";
-  --heading-font:"avenir" */
-
-/* button {
-  padding:var(--ws);
-}
-
-p {
-  padding:var(--ws);
-} */
-
-*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -87,7 +58,7 @@ p {
 
 code {
   display: block;
-  font-family: var(--code-font);
+  font-family: var(--coding-font);
   white-space: pre;
   background-color: darkslategray;
   color: rgb(188, 178, 125);
