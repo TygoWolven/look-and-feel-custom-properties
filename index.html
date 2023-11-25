@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Living styleguide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/colors.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/typografie.css" />
+    <link rel="stylesheet" href="./styles/iconen.css" />
+    <link rel="stylesheet" href="./styles/forms.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/logos.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="./scripts/script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <img src="assets/images/obastyleguide.png" alt="oba logo" />
+
+      <button class="tablink" onclick="switchTab(event, 'globals')">
+        Globals
+      </button>
+
+      <button class="tablink" onclick="switchTab(event, 'typografie')">
+        Typografie
+      </button>
+
+      <button class="tablink" onclick="switchTab(event, 'kleuren')">
+        Kleuren
+      </button>
+
+      <button class="tablink" onclick="switchTab(event, 'buttons')">
+        Knoppen
+      </button>
+      <button class="tablink" onclick="switchTab(event, 'images')">
+        Afbeeldingen
+      </button>
+
+      <button class="tablink" onclick="switchTab(event, 'logos')">
+        Logo's
+      </button>
+
+      <button class="tablink" onclick="switchTab(event, 'icons')">
+        Iconen
+      </button>
+
+      <button class="tablink" onclick="switchTab(event, 'components')">
+        Componenten
+      </button>
+
+      <button class="tablink" onclick="switchTab(event, 'forms')">Forms</button>
+
+      <button class="tablink" onclick="switchTab(event, 'layout')">
+        Layout
+        </button>
+      <button class="tablink" onclick="switchTab(event, 'media')">
+        Media
+       </button>
+    </nav>
+
+    <section id="globals" class="tabcontent">
+      <h2 id="globals-h2">Globals</h2>
+      <br />
+      <h3 id="globals-h3">Header Desktop vanaf 635px</h3>
+      <p>
+        De header van de OBA bestaat uit 5 onderdelen. Linksboven is het logo
+        van de OBA. Rechtsboven is er een kleine list met 3 links. Onder deze
+        links is een knop met een "Word Lid" tekst. Onder de logo en de "Word
+        Lid" knop is de navigatie. Onder de navigatie bevindt zich de
+        zoekmodule.
+      </p>
+      <br />
+      <img src="./assets/Header.jpg" width="500px" />
+      <br />
+      <br />
+      <h3 id="globals-h3">Footer Desktop vanaf 915px</h3>
+      <p>
+        De footer van de OBA bestaat uit 5 onderdelen. Er zijn 4 kolommen met
+        headings en onder elke heading een list. Rechtsonder zijn er nog in het
+        klein twee links.
+      </p>
+      <br />
+      <img src="./assets/Footer oba.jpg" width="500px" />
+      <br />
+      <br />
+      <h3 id="globals-h3">Header Tablet vanaf 530px</h3>
+      <p>
+        De tablet header van de OBA bestaat uit 4 onderdelen. Linksboven is het
+        logo van de OBA. Rechtsboven is er een kleine list met 4 links. Onder de
+        logo is de navigatie. De navigatie is in twee kolommen opgedeeld. Onder
+        de navigatie bevindt zich de zoekmodule.
+      </p>
+      <br />
+      <img src="./assets/tablet header oba.jpg" width="500px" />
+      <br />
+      <br />
+      <h3 id="globals-h3">Footer Tablet vanaf 624px</h3>
+      <p>
+        De tablet footer van de OBA bestaat uit 5 onderdelen. Er zijn 2 kolommen
+        met headings en onder elke heading een list. Rechtsonder zijn er nog in
+        het klein twee links.
+      </p>
+      <br />
+      <img src="./assets/footer tablet oba.jpg" width="500px" />
+
+      <br />
+      <h3 id="globals-h3">Header Mobile tot en met 529px</h3>
+      <p>
+        De mobile header van de OBA bestaat uit 4 onderdelen. Boven is het logo
+        van de OBA. Daaronder is er een kleine list met 4 links. Onder Onder de
+        kleine list is de navigatie. De navigatie bestaat uit 2 kolommen. Onder
+        de navigatie bevindt zich de zoekmodule.
+      </p>
+      <br />
+      <img src="./assets/mobile header oba.jpg" width="500px" />
+      <br />
+      <br />
+      <h3 id="globals-h3">Footer Desktop tot en met 623px</h3>
+      <p>
+        De mobile footer van de OBA bestaat uit 5 onderdelen. Er is 1 kolom met
+        headings en onder elke heading een list. Rechtsonder zijn er nog in het
+        klein twee links.
+      </p>
+      <br />
+      <img src="./assets/Footer oba mobile.jpg" width="500px" />
+    </section>
+
+    <section id="typografie" class="tabcontent">
+      <h2 id="typografie-h2">Typografie</h2>
+      <p>
+        Gebruik kopjes op de juiste hiërarchische manier (&lt;h2&gt; gevolgd
+        door &lt;h3&gt;, enzovoort), omdat dit de leesbaarheid en scanbaarheid
+        voor alle gebruikers verbetert. Op de OBA website wordt geen &lt;h1&gt;
+        gebruikt.
+      </p>
+      <br />
+     
+        <p class="typografie-avenirroman">
+          Avenir Roman: abcdefghijklmnopqrstuvwxyz
+          <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </p>
+
+        <p class="typografie-avenirmedium">
+          Avenir Medium: abcdefghijklmnopqrstuvwxyz
+          <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </p>
+
+        <p class="typografie-avenirblack">
+          Avenir Black: abcdefghijklmnopqrstuvwxyz
+          <br />ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </p>
+      </ul>
+      <br>
+      <h3 id="typografie-h3">Paragraaf &lt;p&gt;</h3>
+      <code>
+        {font-family: Avenir;
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        line-height: 1.5;}
+      </code>
+        <p><em>Tekst- en linkvoorbeeld:</em></p>
+        <p class="typografie-paragraaf">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."<br />
+          <a class="paragraaf-link" href="">"Link Paragraaf"</a>
+        </p>
+      
+      <br>
+      <h3 id="typografie-h3">&lt;H2&gt;</h3>
+      <code>
+        {font-family: Avenir;
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: black;
+        line-height: 1.5;}
+      </code>
+        <p><em>Tekst- en linkvoorbeeld:</em></p>
+        <h2 class="typografie-desktop-h2">
+          "Heading 2"<br />
+          <a class="h2-link" href="">"Link Heading 2"</a>
+        </h2>
+        <br>
+      <h3 id="typografie-h3">&lt;H3&gt;</h3>
+        <code>
+        {font-family: Avenir;
+        font-size: 2rem;
+        font-weight: 700;
+        color: black;
+        line-height: 1.5;}
+      </code>
+        <p><em>Tekst- en linkvoorbeeld:</em></p>
+        <h3 class="typografie-desktop-h3">
+          "Heading 3"<br />
+          <a class="h3-link" href="">"Link Heading 3"</a>
+        </h3>
+      
+        <br>
+      <h3 id="typografie-h3">&lt;H4&gt;</h3>
+      <code>
+        {font-family: Avenir;
+        font-size: 1.3462rem;
+        font-weight: 700;
+        color: black;
+        line-height: 1.5;}
+      </code>
+        <p><em>Tekst- en linkvoorbeeld:</em></p>
+        <h4 class="typografie-desktop-h4">
+          "Heading 4"<br />
+          <a class="h4-link" href="">"Link Heading 4"</a>
+        </h4>
+      
+    </section>
+
+    <section id="kleuren" class="tabcontent">
+      <h2>Kleuren</h2>
+      <p class="textK">
+        De vier basis kleuren zijn rood, wit, grijs en zwart. Naast de vier
+        basis kleuren zijn er nog vier kleuren gekozen: oranje, paars, blauw en
+        turquoise. Deze kleuren worden gebruikt voor submerken en projecten.
+        Hiernaast zijn nog zes extra kleuren geselecteerd, deze worden gebruikt
+        voor producten en diensten
+      </p>
+
+      <h3>Basis kleuren</h3>
+      <div class="colors-container">
+        <div class="color1">#F00</div>
+        <div class="color1">#FFF</div>
+        <div class="color1">#CCC</div>
+        <div class="color1">#000</div>
+      </div>
+
+      <h3>Submerken en projecten</h3>
+      <div class="colors-container">
+        <div class="color2">#FF561E</div>
+        <div class="color2">#A22A86</div>
+        <div class="color2">#1370BD</div>
+        <div class="color2">#32A182</div>
+      </div>
+
+      <h3>Producten en diensten</h3>
+      <div class="colors-container">
+        <div class="color3">#FDA12B</div>
+        <div class="color3">#FE2F7F</div>
+        <div class="color3">#3C389E</div>
+        <div class="color3">#31A3DB</div>
+        <div class="color3">#54AF45</div>
+        <div class="color3">#B2CB42</div>
+      </div>
+    </section>
+
+    <section id="buttons" class="tabcontent">
+      <h2>Knoppen</h2>
+      <p>
+        Oba gebruikt veel verschillende de knoppen. De standaard knoppen zijn
+        zwart met witte tekst. Alle knoppen hebben een icon er naast.
+      </p>
+      <h4>Code voorbeeld:</h4> 
+      &lt; button class="buttons-zwart"> Bekijk aanbod ▶ /buttons &gt <br> 
+      <button class="buttons-zwart"> Bekijk aanbod ▶</button> <br/>
+      
+      <p>
+        Je hebt ook een aantal witte knoppen. Deze "vind" knop staat naast de
+        zoek balk en is in dit geval wit. <br />
+        Dit kan je gebruiken als een zwart knop niet past bij een bepaalde
+        achtergrond kleur.
+      </p>
+      <button class="buttons-wit"> Vind ▶</button><br/>
+      <p>
+        Als je cookies moet accepteren krijg je de rode knoppen te zien. De
+        hover heeft een donkere rode kleur zorgt.
+      </p>
+      <button class="buttons-cookies"> cookies niet toestaan</button>
+      <button class="buttons-cookies"> Accepteer alle cookies</button>
+    </section>
+
+    <section id="images" class="tabcontent">
+      <h2>Afbeeldingen</h2>
+      <p>
+        Oba maakt veel gebruik van banners met een ratio van 16:5. Deze
+        afbeeldingen worden als background-image gebruikt. Verder hebben bijna
+        alle afbeeldingen een ratio van 4:3. Op alle afbeeldingen zijn mensen afgebeeld
+        die gebruik maken van producten van de oba. Het is belangrijk
+        dat er veel verschillende soorten mensen worden gebruikt, 
+        omdat oba het diverse Amsterdam moet aanspreken. 
+      </p>
+      <img src="assets/images/oba-images.jpeg" alt="oba banner" width="500px" />
+      <img src="assets/images/oba-images2.jpeg" alt="oba image" width="500px" />
+    </section>
+
+    <section id="logos" class="tabcontent">
+      <h2>Logo’s</h2>
+      <p>
+        Voor oba corporate wordt het basislogo gebruikt. Hoofdkleur is rood. Om
+        een kleurig palet te krijgen wordt zwart niet meer als tweede kleur
+        gebruikt, maar zijn er vier voorkeurskleuren uitgekozen. Uitingen zijn
+        bij voorkeur tweetalig (Nederlands en Engels).
+      </p>
+      <h3>logo, vestigingen, submerken, producten &amp; diensten</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              laag 1: corporate logo<br>rood, wit, zwar, grijs
+            </td>
+            <td>
+              <img src="assets/images/obalogos.png" alt="oba logos" width="500px" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              laag 2: vestiging<br>rood + grijs<br>
+            </td>
+            <td>
+              <img src="assets/images/obavestiging.png" alt="oba logos" width="500px" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              laag 3: submerk<br>kleur + zwart<br>
+            </td>
+            <td>
+              <img src="assets/images/obasubmerk.png" alt="oba logos" width="500px" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              laag 4: producten en diesten<br>zwart + extra kleurenpalet<br>
+            </td>
+            <td>
+              <img src="assets/images/obaproduct.png" alt="oba logos" width="500px" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              laag 5: samenwerken<br>kleur + zwart<br>
+            </td>
+            <td>
+              <img src="assets/images/obapartner.png" alt="oba logos" width="500px" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <h3>Meer voorbeelden</h3>
+      <br>
+      <img src="assets/images/obalogos2.png" alt="oba logos" width="500px" />
+      <img src="assets/images/obalogos3.png" alt="oba logos" width="500px" />
+      <br>
+      <img src="assets/images/obalogos4.png" alt="oba logos" width="300px" />
+    </section>
+
+    <section id="icons" class="tabcontent">
+      <h2>Iconen</h2> <br>
+      <h3>Pijlen</h3>
+      <p>
+        Er wordt gebruik gemaakt van verschillende iconen, met name de pijltjes die over de gehele webiste worden gebruikt en achter links of knoppen staan. 
+        Op deze manier is het duidelijk dat deze elementen interactief zijn en aangeklikt kunnen worden. <br> <br>
+        <h4>Code voorbeeld:</h4> 
+        &lt; background-image: url(data:image/png; ...  ); &gt <br>
+        <img src="assets/pijltjesiconen.png" alt="arrow icons" /> <br> <br>
+
+      <br><h3>Emojis</h3>
+        Op de start- en vacaturepagina's worden emoji-achtige iconen ingezet om de intentie van de tekst te versterken. <br> <br>
+        <h4>Code voorbeeld:</h4> 
+        <code>
+          &lt; div class="emoji-presentation">😁 /div &gt;
+        </code>
+        
+
+        <img src="assets/iconenfacatures 2023-11-14 om 16.08.13.png" alt="vacancy icons">
+        <img src="assets/iconenhomepagina2023-11-14 om 15.46.10.png" alt="homepage icons"/><br> <br>
+        
+        <br><h3>Studieplek</h3>
+        Om een studieplek te vinden, worden pictogrammen gebruikt, zoals hieronder te zien is. De verschillende kleuren geven de diverse locaties aan op de kaart. <br> 
+        <img src="assets/inputform3 2023-11-14 om 15.54.55.png" alt="vacancy icons"><br> <br>
+      </p>
+    </section>
+
+    <section id="components" class="tabcontent">
+      <h2>Components</h2>
+      <h3>Accordion</h3>
+      <p> Accordions worden gebruikt zodat de gebruiker in staat is om een optie te selecteren uit een lijst van voorstellen. <br> <br>
+        <h4>Code voorbeeld accordion ingeklapt:</h4> 
+            &lt; h3 class=“toggler interactive” data-component=“bw.ui.foldable"&gt; <br>
+            &lt; button aria-expanded=“false” class=“default”&gt; &lt; /button &gt; <br>
+            &lt; span &gt; Zuid &lt; /span&gt; <br>
+            &lt; /h3 &gt; <br> <br>
+
+        <h4>Code voorbeeld accordion uitgeklapt:</h4> 
+            &lt; h3 class=“toggler interactive open” data-component=“bw.ui.foldable”&gt; <br>
+            &lt; button aria-expanded=“true” class=“default”&gt; &lt; /button &gt; <br>
+            &lt; span &gt; Zuid &lt; /span&gt; <br>
+            &lt; /h3 &gt; <br>
+            &lt; div &gt; <br>
+            &lt; p &gt; <br>
+            &lt; a href="..." &gt; OBA Buiteneldert &lt; /a &gt; <br>
+            &lt; /p &gt; <br>
+            &lt; /div &gt; <br>
+        <img class="accordion" src="assets/accordion.png" alt="accordion" /> <br> <br>
+
+        <br> <h3>Carousel</h3>
+        Om door boeken heen te klikken wordt een carousel gebruikt. <br> <br>
+        <h4>Code voorbeeld:</h4> 
+            &lt; div class=“biebcomponent regular section”&gt; <br>
+            &lt; div class=“scrollablelist centered”&gt; <br>
+            &lt; h3 onze nieuwste boeken &gt; &lt; /h3&gt; <br>
+            &lt; div class=“slidingnav fadeout” style=“margin-top:13px; height: 252px;” &gt; <br>
+            &lt; button class=“prev passive” disabled=“disabled” style=“top:103px;”&gt; Vorige &lt; /button &gt; <br>
+            &lt; button class=“next” style=“top: 103px;” &gt; Volgende &lt; /button &gt; <br>
+            &lt; ::after &gt; &lt; /div &gt; <br>
+            &lt; ul class=“plain grid-list narrow interactive sliding” data-component=“bw.ui.coverfix bw.ui.slidingitems2” data-heightcertain=“true” data-prev=“vorige” data-next=“volgende” style=“height: 252px;” &gt; <br>
+            &lt; li class=“current”  &gt; <br>
+            &lt; p class=“grid-title”  &gt; <br>
+            &lt; a href=“…” &gt; &lt; /a &gt; &lt; /p &gt; <br>
+            &lt; p class=“additional”  &gt; “ Natascha Kampusch” &lt; /p &gt; <br> <br>
+      </p>
+
+      <img class="carousel" src="assets/carousel 2023-11-15 om 11.29.33.png" alt="carousel" />
+    </section>
+
+
+
+    <section id="forms" class="tabcontent">
+      <h2>Forms</h2>
+
+      <br>
+
+      <h3>Selectieformulieren</h3>
+      <p>
+        Bij de OBA wordt er gebruik gemaakt van een aantal selectieformulieren om informatie te zoeken of te
+        filteren. De site bevat voornamelijk tekstvelden, deze bevinden zich in de benoemde formulieren, maar ook om 
+        te zoeken op de website, of om contact op te nemen. De vormgeving van deze tekstvelden worden overal op de website
+        consistent op dezelfde manier toegepast.
+      </p>
+      <img src="./assets/inputform 2023-11-14 om 15.59.16.png" alt="inputform afbeelding">
+
+      <h3>Checkboxformulieren</h3>
+      <p>
+        In sommige formulieren zul je checkboxes nodig hebben, denk hierbij aan een formulier waarin je interesses moet aanvinken, 
+        of toestemming moet geven aan bepaalde voorwaardens. Zorg ervoor, dat zodra je deze checkboxes gaat gebruiken, je begint met 
+        een dikgedrukte titel die aangeeft waar de checkbox voor staat. Met onder deze titel een kleine uitleg.
+      </p>
+      <img src="./assets/inputform2 2023-11-14 om 16.00.14.png" alt="inputform afbeelding" id="correct">
+      <img src="./assets/inputform2 2023-11-14 om 16.16.14.png" alt="inputform afbeelding" id="false">
+
+      <h4>Code Voorbeeld Checkboxes:</h4>
+      <code>
+        <pre>
+          &lt;input id="checkbox" type="checkbox" checked="checked" value="nieuwsbrief OBA Nieuws" &gt;
+          
+          &lt;label for="checkbox"&gt;
+          &emsp;&lt;b&gt;OBA Nieuws&lt;/b&gt;
+          &emsp;"Elke twee weken de leukste activiteiten van de OBA, leestips en meer."
+          &lt;/label&gt;
+        </pre>
+      </code>
+    </section>
+
+
+
+    <section id="layout" class="tabcontent">
+      <h2>Layout</h2>
+      <p>
+        De layout van de oba moet altijd beginnen met bovenaan een banner die
+        het hele scherm vult, waarna daaronder een kolom van 2 of 3 blokken met
+        plaatjes en/of tekst is.
+      </p>
+      <img src="assets/images/oba-layout.png" alt="oba layout" width="800px" />
+      <p>
+        Qua responsibility, worden de 2 of 3 kolommen gekrompen in 1 kolom
+        wanneer je de website op je telefoon bekijkt.
+      </p>
+     <br>
+      <h2>Afbeelding & tekst</h2>
+      <h3>Tablet</h3>
+      <p>
+        Er is nog een klein verschil tussen de layout van een tablet en telefoon
+        als je kijkt naar afbeeldingen met tekts er naast.<br />
+        Bij een tablet heb je 2 kolommen waarbij de afbeelding de zelfde grootte
+        heeft als de kolom er naast.
+      </p>
+      <img
+        src="assets/images/Oba-layout-tablet.png"
+        alt="oba layout tablet"
+        width="500px "
+      />
+      <img src="assets/images/oba-layout2.png" alt="oba layout" width="300px" align="right"/> 
+      <br>
+      <h3>Mobile</h3>
+      <p>
+        Bij een telefoon moet de tekts onder de afbeelding komen. De afbeelding
+        mag dan ook wat groter worden weergegeven.
+      </p> 
+      <img
+        src="assets/images/Oba-layout-mobile.png"
+        alt="oba layout tablet"
+        width="400px" 
+      />
+    </section>
+
+    <section id="media" class="tabcontent">
+      <h2>Media</h2>
+      <p>
+        Oba gebruikt soms ook video's ombepaalde dingen te laten zien. 
+        Je hoeft alleen maar het video te starten en je kan de video bekijken. <br>
+        Je wordt niet naar een andere site door gestuurd, hierdoor kan je de video stoppen om weer verder te scrollen op de website.
+      </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4oM2Zs0c0Ik" frameborder="0" allowfullscreen></iframe>
+      <h4>Code voorbeeld:</h4> 
+      &lt; iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0"> /iframe &gt; <br> 
+    </section>
+  </body>
+</html>
